@@ -1,0 +1,33 @@
+{
+	"name": "hypejunction/hypequarantine",
+	"type": "elgg-plugin",
+	"description": "Implements content approval workflow",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg",
+		"plugin",
+		"approval",
+		"vetting",
+		"quarantine"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"extra": {
+		"installer-name": "hypeQuarantine"
+	},
+	"require": {
+		"php": ">=5.5",
+		"composer/installers": "~1.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
+
