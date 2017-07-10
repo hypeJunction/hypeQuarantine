@@ -70,7 +70,7 @@ class Menus {
 			return false;
 		};
 
-		if ($show_menu) {
+		if ($show_menu()) {
 			$return[] = ElggMenuItem::factory([
 				'name' => 'quarantine',
 				'text' => elgg_echo('quarantine'),
